@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Traits in PHP",
+    "date": "2017-01-12T18:05:12+00:00",
+    "categories": [
+      "Zend Study Notes"
+    ],
+    "fileName": "2017-01-12-traits-in-php.md"
+  },
+  {
+    "title": "Magic methods in PHP",
+    "date": "2017-01-13T11:42:59+00:00",
+    "categories": [
+      "Uncategorized"
+    ],
+    "fileName": "2017-01-13-magic-methods-in-php.md"
+  },
+  {
+    "title": "How to enable xdebug for PHP7.0 on Ubuntu 16.04",
+    "date": "2017-01-27T19:56:48+00:00",
+    "categories": [
+      "DevEnvironment",
+      "PHP 7",
+      "Ubuntu 16.04"
+    ],
+    "tags": [
+      "PHP7 xdebug",
+      "Ubuntu 16.04 PHP7 xdebug",
+      "ubuntu php xdebug",
+      "Ubuntu16.04 xdebug"
+    ],
+    "fileName": "2017-01-27-how-to-enable-xdebug-for-php7-0-on-ubuntu-16-04.md"
+  },
+  {
+    "title": "How to set $_SERVER parameters in Apache",
+    "date": "2017-02-02T17:58:20+00:00",
+    "categories": [
+      "PHP 7"
+    ],
+    "fileName": "2017-02-02-how-to-set-_server-parameters-in-apache.md"
+  },
+  {
+    "title": "How to use CER certificates on Ubuntu 16.04 CLI and Vagrant",
+    "date": "2017-03-13T13:13:24+00:00",
+    "categories": [
+      "DevEnvironment",
+      "Ubuntu 16.04",
+      "Vagrant"
+    ],
+    "tags": [
+      "CER",
+      "Composer",
+      "CRT Certificate",
+      "Root Certificate",
+      "Vagrant"
+    ],
+    "fileName": "2017-03-13-how-to-use-cer-certificates-on-ubuntu-16-04-cli-and-vagrant.md"
+  },
+  {
+    "title": "Doctrine Second Level Cache with Redis on Symfony 3.2",
+    "date": "2017-05-10T10:23:38+00:00",
+    "categories": [
+      "Symfony 3"
+    ],
+    "tags": [
+      "doctrine",
+      "redis",
+      "second level cache",
+      "symfony 3"
+    ],
+    "fileName": "2017-05-10-doctrine-second-level-cache-with-redis-on-symfony-3-2.md"
+  },
+  {
+    "title": "Ecmascript 6 Quick Tutorial 1/2",
+    "date": "2017-05-15T12:29:52+00:00",
+    "categories": [
+      "Uncategorized"
+    ],
+    "fileName": "2017-05-15-ecmascript-6-quick-tutorial-12.md"
+  },
+  {
+    "title": "Gitlab CI/CD Configuration on a Digitalocean Droplet",
+    "date": "2017-06-06T07:49:25+00:00",
+    "categories": [
+      "Uncategorized"
+    ],
+    "fileName": "2017-06-06-gitlab-cicd-configuration-on-a-digitalocean-droplet.md"
+  },
+  {
+    "title": "Installing Vagrant boxes from your corporate network",
+    "date": "2017-06-06T07:49:25+00:00",
+    "categories": [
+      "Uncategorized"
+    ],
+    "fileName": "2018-06-11-install-vagrant-boxes-from-your-corporate-network.md"
+  }
+]

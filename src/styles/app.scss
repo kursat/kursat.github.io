@@ -3,3 +3,23 @@
 @import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
 @import '~@blueprintjs/core/src/blueprint';
 
+body {
+    background-color: $dark-gray3;
+    height: 100vh;
+}
+
+#root {
+    height: 100%;
+}
+
+.center-flex {
+    //position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@import 'post';
+@import 'layout';
