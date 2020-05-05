@@ -43,11 +43,11 @@ const Post = ({
                         source={content}
                     />
                     <DiscussionEmbed
-                        shortname={window.location.href}
+                        shortname={'kursat-github-io'}
                         config={{
                             url: window.location.href,
                             identifier: window.location.href,
-                            title: window.location.href,
+                            title: name,
                         }}
                     />
                 </>
