@@ -6,6 +6,11 @@ import {MagicSpinner} from 'react-spinners-kit';
 import {postHeaderRegex} from '../constants';
 import CodeBlockRenderer from '../components/renderers/CodeBlockRenderer';
 
+const POST_BASE_URL =
+    process.env.NODE_ENV === 'production'
+        ? 'https://raw.githubusercontent.com/kursat/kursat.github.io/master/blog-content'
+        : '/blog-content';
+
 const Post = ({
     match: {
         params: {name},
@@ -18,7 +23,7 @@ const Post = ({
     );
 
     useEffect(() => {
-        fetch(`/blog-content/${name}`)
+        fetch(`${POST_BASE_URL}/${name}`)
             .then((res) => res.text())
             .then((text) => text.replace(postHeaderRegex, ''))
             .then((res) =>
