@@ -13,12 +13,6 @@ To enable mysql remote connection you must first change bind-address in `/etc/my
 bind-address            = 0.0.0.0
 ```
 
-Restart the mysql server:
-
-```bash
-service mysql restart
-```
-
 Login mysql (by auth_socket):
 
 ```bash
@@ -41,7 +35,7 @@ If you want user to have grant option you have to run below line too:
 GRANT Grant Option ON *.* TO `root`@`%`;
 ```
 
-Restart the mysql server again:
+Restart the mysql server:
 
 ```bash
 service mysql restart
