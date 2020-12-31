@@ -35,6 +35,11 @@ FLUSH PRIVILEGES;
 ```
 _Note that `root@'localhost'` and `root@'%'` are different users._
 
+If you want user to have grant option you have to run below line too:
+
+```mysql
+GRANT Grant Option ON *.* TO `root`@`%`;
+```
 
 Restart the mysql server again:
 
