@@ -21,7 +21,7 @@ http://knexjs.org/#Builder
 module.exports = {
   lifecycles: {
     async afterCreate(result, data) {
-      const mongooseInstance = strapi.connections.default;
+      const mongodbInstance = strapi.connections.default;
       
       // ...
     }
@@ -47,7 +47,7 @@ functions from this object.
         });
       });
 
-      const insertedRecords = await mongooseInstance.models.MyCollection.insertMany(records);
+      const insertedRecords = await mongodbInstance.models.MyCollection.insertMany(records);
 ```
 
 And if your model has relations you have to update them too. Strapi is keeping ids of both record on each other even 
@@ -63,10 +63,10 @@ the relation is one-to-one. If your collection related to user you have to bulk 
         return {
           "updateOne": {
             "filter": { "_id": u.id },
-            "update": { $set: { "my-collection": (insertedRecords.find(r => r.user == u.id)).id } }
+            "update": { $set: { "my_collection": (insertedRecords.find(r => r.user == u.id)).id } }
           }
         }
       })
 
-      await mongooseInstance.models.UsersPermissionsUser.bulkWrite(userBulkUpdateOps);
+      await mongodbInstance.models.UsersPermissionsUser.bulkWrite(userBulkUpdateOps);
 ```
