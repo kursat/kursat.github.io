@@ -117,5 +117,13 @@
       "Linux"
     ],
     "fileName": "2020-12-31-ssh-timeout.md"
+  },
+  {
+    "title": "How to bulk insert and update in Strapi",
+    "date": "2020-12-31T20:24:00+00:00",
+    "categories": [
+      "Strapi"
+    ],
+    "fileName": "2021-01-24-strapi-bulk-insert-and-update.md"
   }
 ]
