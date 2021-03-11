@@ -125,5 +125,13 @@
       "Strapi"
     ],
     "fileName": "2021-01-24-strapi-bulk-insert-and-update.md"
+  },
+  {
+    "title": "Login Moodle with Keycloak OAuth2",
+    "date": "2021-03-11T20:24:00+00:00",
+    "categories": [
+      "Moodle, keycloak"
+    ],
+    "fileName": "2021-03-11-moodle-keycloak-oauth2-integration.md"
   }
 ]
