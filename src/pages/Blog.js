@@ -8,12 +8,12 @@ const Blog = () => {
     const posts = useSelector((state) => state.posts);
 
     return (
-        <ul className={Classes.LIST}>
+        <ul className={Classes.LIST_UNSTYLED}>
             {posts.map((post) => {
                 return (
                     <li>
                         <Link to={`/post/${post.fileName}`}>{post.title}</Link>
-                        <span>{dayjs(post.date).format('DD-MM-YYYY')}</span>
+                        <span> {dayjs(post.date).format('DD-MM-YYYY')}</span>
                     </li>
                 );
             })}

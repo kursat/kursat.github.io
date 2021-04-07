@@ -133,5 +133,13 @@
       "Moodle, keycloak"
     ],
     "fileName": "2021-03-11-moodle-keycloak-oauth2-integration.md"
+  },
+  {
+    "title": "Create and Mount swap on Linux",
+    "date": "2021-04-08T20:24:00+00:00",
+    "categories": [
+      "Linux, swap"
+    ],
+    "fileName": "2021-04-08-create-and-mount-swap-on-linux.md"
   }
 ]
