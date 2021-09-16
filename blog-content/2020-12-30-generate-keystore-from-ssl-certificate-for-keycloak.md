@@ -37,3 +37,14 @@ Now update `/opt/keycloak/standalone/configuration/standalone.xml` file like bel
     <!-- ... -->
 </security-realm>
 ```
+NOTE TO FUTURE SELF:
+
+You don't use Nginx reverse proxy, you are simply forwarding port 443 to 8443 at `before.rules` of `ufw`.
+
+```
+*nat
+:PREROUTING ACCEPT [0:0]
+-A PREROUTING -p tcp --dport 443 -j REDIRECT --to-port 8443
+COMMIT
+
+```
